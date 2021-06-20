@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="app.css" />
+    <title>DC Woodworking | Contact</title>
+  </head>
+
+  <body>
+    <nav
+      class="navbar bg-custom navbar-expand-md navbar-custom fixed-top"
+      id="mainnav"
+    >
+      <a class="navbar-brand" href="index.html">DC Woodworking</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only"></span
+            ></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="contact-form">
+      <h1 class="ml-3 mt-2 display-4">Contact Me</h1>
+      <p class="ml-3 mb-5">Please fill out the form to get in touch</p>
+      <form action="#nowhere">
+        <div class="form-row mx-3">
+          <div class="col-6 form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="form-control" />
+          </div>
+          <div class="col-6 form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" />
+          </div>
+        </div>
+        <div class="form-row mx-3">
+          <div class="form-group col">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="5"
+              class="form-control"
+            ></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-submit mt-2">Submit</button>
+      </form>
+    </div>
+    <!-- Information Section -->
+    <section id="contact-info container">
+      <div class="row mb-5">
+        <div
+          class="
+            col-4
+            text-center
+            dark-bg
+            info-box
+            justify-content-center
+            location
+          "
+        >
+          <i class="fas fa-map-marker-alt fa-3x pb-3 pt-2"></i>
+          <h3 class="pb-1">Location</h3>
+          <p>
+            Dave's Garage <br />
+            Plainfield, IL
+          </p>
+        </div>
+        <div class="col-4 text-center light-bg info-box">
+          <i class="fas fa-phone fa-3x pb-3 pt-2"></i>
+          <h3>Phone</h3>
+          <p>(815) 791-3832</p>
+        </div>
+        <div class="col-4 text-center dark-bg info-box">
+          <i class="far fa-envelope fa-3x pb-3 pt-2"></i>
+          <h3>Email</h3>
+          <p>dcountry@sbcglobal.net</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <p>DC Woodworking &copy; 2021, All Rights Reserved</p>
+    </footer>
+
+    <!-- Bootstrap JS Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+/* Body */
+body {
+  background-color: #fffbff;
+  font-family: "Raleway", sans-serif;
+  padding-top: 60px;
+  box-sizing: border-box;
+}
+
+/* Project Page */
+span {
+  display: flex;
+  padding-top: 0rem;
+  padding-bottom: 0.5rem;
+  justify-content: center;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: 800;
+}
+.bg-custom {
+  background-color: #92817a;
+}
+.navbar-custom .navbar-brand {
+  color: #362417;
+  font-size: 1.5rem;
+}
+.navbar-custom .navbar-nav .nav-link {
+  color: #000500;
+  font-weight: 300;
+}
+.navbar-custom .navbar-nav .active {
+  color: #f1dabf;
+}
+.navbar-custom .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Text centering on home page???? */
+.about,
+.content {
+  text-align: center;
+}
+
+/* Home Page Info Tiles */
+main h2 {
+  padding-bottom: 1em;
+}
+
+main p {
+  line-height: 2em;
+  font-size: 1.2em;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  padding-top: 1em;
+  margin-bottom: 0;
+  background-color: #92817a;
+}
+#main-footer p {
+  margin-bottom: 0;
+  padding-bottom: 1em;
+}
+
+/* Images */
+.square {
+  width: 500px;
+  height: 500px;
+}
+.square2 {
+  width: 60%;
+  height: auto;
+  margin: 1.6%;
+}
+
+/* Carousel */
+.carousel-inner {
+  width: auto;
+  height: 95vh !important;
+}
+
+.carousel-caption {
+  color: white;
+  background-color: #00050077;
+  width: auto;
+}
+
+/* Button Styling */
+.btn-submit {
+  display: block;
+  border: #362417 solid 2px;
+  margin: 0 auto 5.1rem;
+}
+
+.btn-main {
+  border: solid #000500 1px;
+  font-weight: 400;
+  /* padding: 1rem 1rem; */
+}
+
+.btn-main:hover {
+  text-decoration: underline;
+  background-color: #ecded4;
+  transition: background-color 300ms ease-in;
+}
+
+/* Contact Page */
+.light-bg {
+  background-color: #92817a;
+  color: #000500;
+}
+
+.dark-bg {
+  background-color: #362417;
+  color: #f1dabf;
+}
+
+.info-box {
+  padding-top: 1em;
+}
+
+.location p {
+  line-height: 1.75rem;
+}
